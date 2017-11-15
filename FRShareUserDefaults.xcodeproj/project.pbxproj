@@ -12,26 +12,26 @@
 		B5BDFB1C1FBC34DD002C6C80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5BDFB1B1FBC34DD002C6C80 /* Assets.xcassets */; };
 		B5BDFB1F1FBC34DD002C6C80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5BDFB1D1FBC34DD002C6C80 /* Main.storyboard */; };
 		B5BDFB221FBC34DD002C6C80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5BDFB211FBC34DD002C6C80 /* main.m */; };
-		B5BDFB2D1FBC34DD002C6C80 /* FRShareUserDefaultsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5BDFB2C1FBC34DD002C6C80 /* FRShareUserDefaultsTests.m */; };
-		B5BDFB381FBC34DD002C6C80 /* FRShareUserDefaultsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5BDFB371FBC34DD002C6C80 /* FRShareUserDefaultsUITests.m */; };
+		B5BDFB4D1FBC359F002C6C80 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5BDFB4C1FBC359F002C6C80 /* AppDelegate.m */; };
+		B5BDFB501FBC359F002C6C80 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5BDFB4F1FBC359F002C6C80 /* ViewController.m */; };
+		B5BDFB521FBC359F002C6C80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5BDFB511FBC359F002C6C80 /* Assets.xcassets */; };
+		B5BDFB551FBC359F002C6C80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5BDFB531FBC359F002C6C80 /* Main.storyboard */; };
+		B5BDFB581FBC359F002C6C80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5BDFB571FBC359F002C6C80 /* main.m */; };
+		B5BDFB7D1FBC3676002C6C80 /* FRShareUserDefaults mini.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = B5BDFB491FBC359F002C6C80 /* FRShareUserDefaults mini.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		B5BDFB291FBC34DD002C6C80 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B5BDFB0A1FBC34DD002C6C80 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B5BDFB111FBC34DD002C6C80;
-			remoteInfo = FRShareUserDefaults;
+/* Begin PBXCopyFilesBuildPhase section */
+		B5BDFB7C1FBC3672002C6C80 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = Contents/Library/LoginItems;
+			dstSubfolderSpec = 1;
+			files = (
+				B5BDFB7D1FBC3676002C6C80 /* FRShareUserDefaults mini.app in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B5BDFB341FBC34DD002C6C80 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B5BDFB0A1FBC34DD002C6C80 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B5BDFB111FBC34DD002C6C80;
-			remoteInfo = FRShareUserDefaults;
-		};
-/* End PBXContainerItemProxy section */
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		B5BDFB121FBC34DD002C6C80 /* FRShareUserDefaults.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FRShareUserDefaults.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,12 +44,16 @@
 		B5BDFB201FBC34DD002C6C80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5BDFB211FBC34DD002C6C80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B5BDFB231FBC34DD002C6C80 /* FRShareUserDefaults.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FRShareUserDefaults.entitlements; sourceTree = "<group>"; };
-		B5BDFB281FBC34DD002C6C80 /* FRShareUserDefaultsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FRShareUserDefaultsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5BDFB2C1FBC34DD002C6C80 /* FRShareUserDefaultsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FRShareUserDefaultsTests.m; sourceTree = "<group>"; };
-		B5BDFB2E1FBC34DD002C6C80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B5BDFB331FBC34DD002C6C80 /* FRShareUserDefaultsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FRShareUserDefaultsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5BDFB371FBC34DD002C6C80 /* FRShareUserDefaultsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FRShareUserDefaultsUITests.m; sourceTree = "<group>"; };
-		B5BDFB391FBC34DD002C6C80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5BDFB491FBC359F002C6C80 /* FRShareUserDefaults mini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FRShareUserDefaults mini.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5BDFB4B1FBC359F002C6C80 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B5BDFB4C1FBC359F002C6C80 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B5BDFB4E1FBC359F002C6C80 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B5BDFB4F1FBC359F002C6C80 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B5BDFB511FBC359F002C6C80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5BDFB541FBC359F002C6C80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5BDFB561FBC359F002C6C80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5BDFB571FBC359F002C6C80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B5BDFB591FBC359F002C6C80 /* FRShareUserDefaults_mini.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FRShareUserDefaults_mini.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,14 +64,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B5BDFB251FBC34DD002C6C80 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B5BDFB301FBC34DD002C6C80 /* Frameworks */ = {
+		B5BDFB461FBC359F002C6C80 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -81,8 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				B5BDFB141FBC34DD002C6C80 /* FRShareUserDefaults */,
-				B5BDFB2B1FBC34DD002C6C80 /* FRShareUserDefaultsTests */,
-				B5BDFB361FBC34DD002C6C80 /* FRShareUserDefaultsUITests */,
+				B5BDFB4A1FBC359F002C6C80 /* FRShareUserDefaults mini */,
 				B5BDFB131FBC34DD002C6C80 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,8 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				B5BDFB121FBC34DD002C6C80 /* FRShareUserDefaults.app */,
-				B5BDFB281FBC34DD002C6C80 /* FRShareUserDefaultsTests.xctest */,
-				B5BDFB331FBC34DD002C6C80 /* FRShareUserDefaultsUITests.xctest */,
+				B5BDFB491FBC359F002C6C80 /* FRShareUserDefaults mini.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,22 +108,20 @@
 			path = FRShareUserDefaults;
 			sourceTree = "<group>";
 		};
-		B5BDFB2B1FBC34DD002C6C80 /* FRShareUserDefaultsTests */ = {
+		B5BDFB4A1FBC359F002C6C80 /* FRShareUserDefaults mini */ = {
 			isa = PBXGroup;
 			children = (
-				B5BDFB2C1FBC34DD002C6C80 /* FRShareUserDefaultsTests.m */,
-				B5BDFB2E1FBC34DD002C6C80 /* Info.plist */,
+				B5BDFB4B1FBC359F002C6C80 /* AppDelegate.h */,
+				B5BDFB4C1FBC359F002C6C80 /* AppDelegate.m */,
+				B5BDFB4E1FBC359F002C6C80 /* ViewController.h */,
+				B5BDFB4F1FBC359F002C6C80 /* ViewController.m */,
+				B5BDFB511FBC359F002C6C80 /* Assets.xcassets */,
+				B5BDFB531FBC359F002C6C80 /* Main.storyboard */,
+				B5BDFB561FBC359F002C6C80 /* Info.plist */,
+				B5BDFB571FBC359F002C6C80 /* main.m */,
+				B5BDFB591FBC359F002C6C80 /* FRShareUserDefaults_mini.entitlements */,
 			);
-			path = FRShareUserDefaultsTests;
-			sourceTree = "<group>";
-		};
-		B5BDFB361FBC34DD002C6C80 /* FRShareUserDefaultsUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B5BDFB371FBC34DD002C6C80 /* FRShareUserDefaultsUITests.m */,
-				B5BDFB391FBC34DD002C6C80 /* Info.plist */,
-			);
-			path = FRShareUserDefaultsUITests;
+			path = "FRShareUserDefaults mini";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +134,7 @@
 				B5BDFB0E1FBC34DD002C6C80 /* Sources */,
 				B5BDFB0F1FBC34DD002C6C80 /* Frameworks */,
 				B5BDFB101FBC34DD002C6C80 /* Resources */,
+				B5BDFB7C1FBC3672002C6C80 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -151,41 +145,22 @@
 			productReference = B5BDFB121FBC34DD002C6C80 /* FRShareUserDefaults.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B5BDFB271FBC34DD002C6C80 /* FRShareUserDefaultsTests */ = {
+		B5BDFB481FBC359F002C6C80 /* FRShareUserDefaults mini */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B5BDFB3F1FBC34DD002C6C80 /* Build configuration list for PBXNativeTarget "FRShareUserDefaultsTests" */;
+			buildConfigurationList = B5BDFB701FBC359F002C6C80 /* Build configuration list for PBXNativeTarget "FRShareUserDefaults mini" */;
 			buildPhases = (
-				B5BDFB241FBC34DD002C6C80 /* Sources */,
-				B5BDFB251FBC34DD002C6C80 /* Frameworks */,
-				B5BDFB261FBC34DD002C6C80 /* Resources */,
+				B5BDFB451FBC359F002C6C80 /* Sources */,
+				B5BDFB461FBC359F002C6C80 /* Frameworks */,
+				B5BDFB471FBC359F002C6C80 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B5BDFB2A1FBC34DD002C6C80 /* PBXTargetDependency */,
 			);
-			name = FRShareUserDefaultsTests;
-			productName = FRShareUserDefaultsTests;
-			productReference = B5BDFB281FBC34DD002C6C80 /* FRShareUserDefaultsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		B5BDFB321FBC34DD002C6C80 /* FRShareUserDefaultsUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B5BDFB421FBC34DD002C6C80 /* Build configuration list for PBXNativeTarget "FRShareUserDefaultsUITests" */;
-			buildPhases = (
-				B5BDFB2F1FBC34DD002C6C80 /* Sources */,
-				B5BDFB301FBC34DD002C6C80 /* Frameworks */,
-				B5BDFB311FBC34DD002C6C80 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B5BDFB351FBC34DD002C6C80 /* PBXTargetDependency */,
-			);
-			name = FRShareUserDefaultsUITests;
-			productName = FRShareUserDefaultsUITests;
-			productReference = B5BDFB331FBC34DD002C6C80 /* FRShareUserDefaultsUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
+			name = "FRShareUserDefaults mini";
+			productName = "FRShareUserDefaults mini";
+			productReference = B5BDFB491FBC359F002C6C80 /* FRShareUserDefaults mini.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -199,16 +174,20 @@
 					B5BDFB111FBC34DD002C6C80 = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.Mac = {
+								enabled = 1;
+							};
+						};
 					};
-					B5BDFB271FBC34DD002C6C80 = {
+					B5BDFB481FBC359F002C6C80 = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
-						TestTargetID = B5BDFB111FBC34DD002C6C80;
-					};
-					B5BDFB321FBC34DD002C6C80 = {
-						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = B5BDFB111FBC34DD002C6C80;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.Mac = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -226,8 +205,7 @@
 			projectRoot = "";
 			targets = (
 				B5BDFB111FBC34DD002C6C80 /* FRShareUserDefaults */,
-				B5BDFB271FBC34DD002C6C80 /* FRShareUserDefaultsTests */,
-				B5BDFB321FBC34DD002C6C80 /* FRShareUserDefaultsUITests */,
+				B5BDFB481FBC359F002C6C80 /* FRShareUserDefaults mini */,
 			);
 		};
 /* End PBXProject section */
@@ -242,17 +220,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B5BDFB261FBC34DD002C6C80 /* Resources */ = {
+		B5BDFB471FBC359F002C6C80 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B5BDFB311FBC34DD002C6C80 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				B5BDFB521FBC359F002C6C80 /* Assets.xcassets in Resources */,
+				B5BDFB551FBC359F002C6C80 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,42 +242,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B5BDFB241FBC34DD002C6C80 /* Sources */ = {
+		B5BDFB451FBC359F002C6C80 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5BDFB2D1FBC34DD002C6C80 /* FRShareUserDefaultsTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B5BDFB2F1FBC34DD002C6C80 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B5BDFB381FBC34DD002C6C80 /* FRShareUserDefaultsUITests.m in Sources */,
+				B5BDFB501FBC359F002C6C80 /* ViewController.m in Sources */,
+				B5BDFB581FBC359F002C6C80 /* main.m in Sources */,
+				B5BDFB4D1FBC359F002C6C80 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		B5BDFB2A1FBC34DD002C6C80 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B5BDFB111FBC34DD002C6C80 /* FRShareUserDefaults */;
-			targetProxy = B5BDFB291FBC34DD002C6C80 /* PBXContainerItemProxy */;
-		};
-		B5BDFB351FBC34DD002C6C80 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B5BDFB111FBC34DD002C6C80 /* FRShareUserDefaults */;
-			targetProxy = B5BDFB341FBC34DD002C6C80 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B5BDFB1D1FBC34DD002C6C80 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				B5BDFB1E1FBC34DD002C6C80 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5BDFB531FBC359F002C6C80 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5BDFB541FBC359F002C6C80 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -425,7 +387,7 @@
 				DEVELOPMENT_TEAM = DZQ5YNVEU2;
 				INFOPLIST_FILE = FRShareUserDefaults/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Smartisan.FRShareUserDefaults;
+				PRODUCT_BUNDLE_IDENTIFIER = Fan.FRShareUserDefaults;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -440,66 +402,38 @@
 				DEVELOPMENT_TEAM = DZQ5YNVEU2;
 				INFOPLIST_FILE = FRShareUserDefaults/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Smartisan.FRShareUserDefaults;
+				PRODUCT_BUNDLE_IDENTIFIER = Fan.FRShareUserDefaults;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
-		B5BDFB401FBC34DD002C6C80 /* Debug */ = {
+		B5BDFB711FBC359F002C6C80 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "FRShareUserDefaults mini/FRShareUserDefaults_mini.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = DZQ5YNVEU2;
-				INFOPLIST_FILE = FRShareUserDefaultsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Smartisan.FRShareUserDefaultsTests;
+				INFOPLIST_FILE = "FRShareUserDefaults mini/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Fan.FRShareUserDefaults-mini";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FRShareUserDefaults.app/Contents/MacOS/FRShareUserDefaults";
 			};
 			name = Debug;
 		};
-		B5BDFB411FBC34DD002C6C80 /* Release */ = {
+		B5BDFB721FBC359F002C6C80 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "FRShareUserDefaults mini/FRShareUserDefaults_mini.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = DZQ5YNVEU2;
-				INFOPLIST_FILE = FRShareUserDefaultsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Smartisan.FRShareUserDefaultsTests;
+				INFOPLIST_FILE = "FRShareUserDefaults mini/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Fan.FRShareUserDefaults-mini";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FRShareUserDefaults.app/Contents/MacOS/FRShareUserDefaults";
-			};
-			name = Release;
-		};
-		B5BDFB431FBC34DD002C6C80 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = DZQ5YNVEU2;
-				INFOPLIST_FILE = FRShareUserDefaultsUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Smartisan.FRShareUserDefaultsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = FRShareUserDefaults;
-			};
-			name = Debug;
-		};
-		B5BDFB441FBC34DD002C6C80 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = DZQ5YNVEU2;
-				INFOPLIST_FILE = FRShareUserDefaultsUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Smartisan.FRShareUserDefaultsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = FRShareUserDefaults;
 			};
 			name = Release;
 		};
@@ -524,20 +458,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B5BDFB3F1FBC34DD002C6C80 /* Build configuration list for PBXNativeTarget "FRShareUserDefaultsTests" */ = {
+		B5BDFB701FBC359F002C6C80 /* Build configuration list for PBXNativeTarget "FRShareUserDefaults mini" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B5BDFB401FBC34DD002C6C80 /* Debug */,
-				B5BDFB411FBC34DD002C6C80 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B5BDFB421FBC34DD002C6C80 /* Build configuration list for PBXNativeTarget "FRShareUserDefaultsUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B5BDFB431FBC34DD002C6C80 /* Debug */,
-				B5BDFB441FBC34DD002C6C80 /* Release */,
+				B5BDFB711FBC359F002C6C80 /* Debug */,
+				B5BDFB721FBC359F002C6C80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
