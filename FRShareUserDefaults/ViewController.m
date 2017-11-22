@@ -17,6 +17,12 @@
     button.action = @selector(btnPressed:);
     [button setKeyEquivalent:@"\e"];  //按 esc 键会自动触发 action.
     [self.view addSubview:button];
+
+    NSButton *shareButton = [[NSButton alloc] initWithFrame:NSMakeRect(200, 50, 100, 100)];
+    shareButton.target = self;
+    shareButton.action = @selector(shareBtnPressed:);
+    [shareButton setKeyEquivalent:@"\e"];  //按 esc 键会自动触发 action.
+    [self.view addSubview:shareButton];
 }
 
 - (void)btnPressed:(id)sender {
@@ -30,6 +36,15 @@
     [[NSWorkspace sharedWorkspace] launchApplication:miniPath];
 }
 
+
+
+- (void)shareBtnPressed:(id)sender {
+    NSDictionary *dict = @{@"hello":@"world"};
+    NSUserDefaults *userDefaults = [[NSUserDefaults alloc] initWithSuiteName:@"DZQ5YNVEU2.com.frank"];
+    [userDefaults registerDefaults:dict];
+    [userDefaults synchronize];
+    NSLog(@"value = %@",[userDefaults objectForKey:@"hello"]);
+}
 
 
 - (void)setRepresentedObject:(id)representedObject {
